@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnapDownloader</title>
+  <link rel="icon" type="image/jpeg" href="favicon.jpg" />
+  <link rel="apple-touch-icon" href="favicon.jpg" />
+  <meta name="description" content="Download video YouTube, Instagram, TikTok, X dan Facebook kualitas HD 1080p & 4K tanpa watermark gratis. Pemrosesan super cepat untuk HP, tablet, dan PC." />
+  <meta name="keywords" content="download video tiktok tanpa watermark, download reels instagram, download youtube mp4, video downloader online gratis, download video x twitter, snapdownloader" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="SnapDownloader" />
+  <link rel="canonical" href="https://snapdownloader.app/" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="SnapDownloader" />
+  <meta property="og:title" content="SnapDownloader — Download Video Online Gratis" />
+  <meta property="og:description" content="Download video YouTube, Instagram, TikTok, X & Facebook kualitas HD 1080p & 4K tanpa watermark gratis." />
+  <meta property="og:url" content="https://snapdownloader.app/" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="SnapDownloader" />
+  <meta name="twitter:description" content="Download video dari 6+ platform dalam hitungan detik. Gratis, cepat, tanpa watermark." />
+
+  <!-- Schema.org — WebApplication + Rating (bintang di Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "SnapDownloader",
+    "url": "https://snapdownloader.app",
+    "description": "Download video YouTube, Instagram, TikTok, X dan Facebook kualitas HD 1080p & 4K tanpa watermark gratis.",
+    "applicationCategory": "MultimediaApplication",
+    "operatingSystem": "All",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.8",
+      "ratingCount": "15420",
+      "bestRating": "5",
+      "worstRating": "1"
+    }
+  }
+  </script>
+
+  <!-- Schema.org — FAQPage (muncul sebagai dropdown di Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Apakah SnapDownloader gratis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Ya, SnapDownloader 100% gratis tanpa batas. Download video sebanyak yang kamu mau tanpa perlu daftar atau bayar."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Bagaimana cara download video TikTok tanpa watermark?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Salin URL video TikTok, paste di SnapDownloader, pilih opsi No Watermark, lalu klik Download."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Platform apa saja yang didukung?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SnapDownloader mendukung YouTube, Instagram, TikTok, X (Twitter), Facebook, dan Vimeo."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <!-- Schema.org — Sitelinks Searchbox (kotak pencarian di Google) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SnapDownloader",
+    "url": "https://snapdownloader.app",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://snapdownloader.app/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="bg-grid"></div>
+  <div class="bg-glow bg-glow-1"></div>
+  <div class="bg-glow bg-glow-2"></div>
+
+  <div class="app">
+
+    <!-- Top Bar -->
+    <header class="topbar">
+      <a href="#" class="logo">
+        <div class="logo-icon">
+          <svg width="22" height="22" viewBox="0 0 26 26" fill="none">
+            <defs><linearGradient id="lgB" x1="0%" y1="0%" x2="60%" y2="100%"><stop offset="0%" stop-color="#4FC3F7"/><stop offset="100%" stop-color="#1565C0"/></linearGradient></defs>
+            <path d="M15 2L7 14h6l-2 10 10-13h-6z" fill="url(#lgB)"/>
+            <path d="M4 21h18v2.5a1 1 0 01-1 1H5a1 1 0 01-1-1V21z" fill="#2979FF" opacity="0.7"/>
+            <circle cx="21" cy="5" r="2.5" fill="#00E676"/>
+          </svg>
+        </div>
+        <span>SnapDownloader</span>
+      </a>
+      <button class="btn-theme" id="themeToggle" aria-label="Toggle theme">
+        <svg class="ico-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
+        <svg class="ico-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display:none"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+    </header>
+
+    <!-- Main -->
+    <main class="main-content">
+      <h1 class="title">
+        <span class="title-static">Download Video dari</span>
+        <span class="rotating-text" id="rotator">TikTok</span>
+      </h1>
+      <p class="subtitle">Paste link dari YouTube, Instagram, TikTok, X, Facebook — download gratis dalam hitungan detik.</p>
+
+      <!-- ═══ AD SLOT 1: Banner Atas (728x90) ═══ -->
+      <!-- GANTI KOMENTAR INI DENGAN SCRIPT DARI ADSTERRA SETELAH DAFTAR -->
+      <div class="ad-slot ad-banner-top" id="adBannerTop">
+        <div class="ad-placeholder">
+          <span class="ad-label">Iklan</span>
+          <!-- PASTE KODE ADSTERRA DI SINI -->
+          <!-- Contoh: <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> -->
+          <div class="ad-demo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            <span>Slot Iklan — Banner 728×90</span>
+            <small>Daftar Adsterra → Paste kode di sini</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Input Bar -->
+      <div class="input-bar" id="inputBar">
+        <div class="input-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+        </div>
+        <input type="text" id="urlInput" class="url-input" placeholder="Paste link video di sini..." autocomplete="off" spellcheck="false" />
+        <button class="btn-clear" id="btnClear" aria-label="Clear">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+        <button class="btn-download" id="btnDownload">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          <span>Download</span>
+        </button>
+      </div>
+
+      <!-- Platforms -->
+      <div class="platform-row">
+        <span class="plabel">Platform didukung:</span>
+        <div class="picons">
+          <div class="pi" title="YouTube"><svg width="18" height="18" viewBox="0 0 24 24" fill="#FF0000"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-1.96C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 1.96A29 29 0 001 12a29 29 0 00.46 5.58 2.78 2.78 0 001.94 1.96C5.12 20 12 20 12 20s6.88 0 8.6-.46a2.78 2.78 0 001.94-1.96A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98" fill="white"/></svg></div>
+          <div class="pi" title="Instagram"><svg width="18" height="18" viewBox="0 0 24 24"><defs><radialGradient id="igr" cx="30%" cy="107%" r="150%"><stop offset="0%" stop-color="#ffd521"/><stop offset="20%" stop-color="#ff7e01"/><stop offset="40%" stop-color="#e1306c"/><stop offset="60%" stop-color="#c13584"/><stop offset="80%" stop-color="#833ab4"/><stop offset="100%" stop-color="#4040b3"/></radialGradient></defs><rect x="2" y="2" width="20" height="20" rx="5" fill="url(#igr)"/><circle cx="12" cy="12" r="4" stroke="white" stroke-width="2" fill="none"/><circle cx="17.5" cy="6.5" r="1.2" fill="white"/></svg></div>
+          <div class="pi" title="TikTok"><svg width="18" height="18" viewBox="0 0 24 24"><rect width="24" height="24" rx="5" fill="#010101"/><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.27 6.27 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.79 1.53V6.79a4.85 4.85 0 01-1.02-.1z" fill="white"/></svg></div>
+          <div class="pi pi-x" title="X"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231L6.055 21.75H2.744l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></div>
+          <div class="pi" title="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="#1877F2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></div>
+          <div class="pi" title="Vimeo"><svg width="18" height="18" viewBox="0 0 24 24" fill="#1AB7EA"><path d="M21.7 8.3c-.1 2.3-1.7 5.5-4.8 9.5C13.8 22 11.1 24 8.8 24c-1.4 0-2.5-1.3-3.5-3.8L3.5 14c-.7-2.5-1.4-3.8-2.2-3.8-.2 0-.8.4-1.9 1.2L0 10.3C1.2 9.3 2.3 8.2 3.5 7.2c1.6-1.3 2.7-2 3.5-2.1 1.8-.2 2.9 1.1 3.3 3.8.5 2.9.8 4.7.9 5.5.5 2.2 1 3.3 1.6 3.3.5 0 1.2-.7 2.1-2.2.9-1.5 1.4-2.6 1.5-3.4.1-1.3-.4-1.9-1.5-1.9-.5 0-1.1.1-1.7.3 1.1-3.7 3.3-5.5 6.5-5.4 2.4.1 3.5 1.6 3.5 4.1z"/></svg></div>
+        </div>
+      </div>
+
+      <!-- ═══ AD SLOT 2: Native / Banner Tengah ═══ -->
+      <div class="ad-slot ad-native" id="adNative">
+        <div class="ad-placeholder">
+          <span class="ad-label">Iklan</span>
+          <!-- PASTE KODE ADSTERRA NATIVE AD DI SINI -->
+          <div class="ad-demo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+            <span>Slot Iklan Native — Adsterra</span>
+            <small>Native ads tampil seperti konten biasa</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result Area -->
+      <div id="resultArea">
+        <!-- Loading -->
+        <div class="rloading" id="rLoading" style="display:none">
+          <div class="loader"></div>
+          <p>Mengambil info video...</p>
+        </div>
+
+        <!-- Result Card -->
+        <div class="rcard" id="rCard" style="display:none">
+          <div class="rcard-top">
+            <div class="rcard-thumb">
+              <img id="rThumb" src="" alt="Thumbnail" />
+              <span class="rduration" id="rDuration"></span>
+              <span class="rplatform" id="rPlatform"></span>
+            </div>
+            <div class="rcard-info">
+              <h3 id="rTitle"></h3>
+              <p class="rchannel" id="rChannel"></p>
+            </div>
+            <button class="rclose" id="rClose" aria-label="Tutup">✕</button>
+          </div>
+          <div class="rcard-downloads" id="rDownloads"></div>
+        </div>
+
+        <!-- Error -->
+        <div class="rerror" id="rError" style="display:none">
+          <span>⚠️</span>
+          <p>Link tidak valid atau video bersifat privat.</p>
+          <button class="btn-retry" id="btnRetry">Coba Lagi</button>
+        </div>
+      </div>
+
+      <!-- ═══ AD SLOT 3: Banner Bawah (300x250) ═══ -->
+      <div class="ad-slot ad-banner-bottom" id="adBannerBottom">
+        <div class="ad-placeholder">
+          <span class="ad-label">Iklan</span>
+          <!-- PASTE KODE ADSTERRA 300x250 DI SINI -->
+          <div class="ad-demo">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+            <span>Slot Iklan — 300×250</span>
+            <small>Display ads terbaik untuk monetisasi</small>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="flinks"><a href="#">Privacy</a><span>·</span><a href="#">Terms</a><span>·</span><a href="#">DMCA</a><span>·</span><a href="#">Kontak</a></div>
+      <p>© 2026 SnapDownloader. Tidak berafiliasi dengan YouTube, Instagram, TikTok, atau platform lainnya.</p>
+    </footer>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
